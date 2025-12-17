@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ShieldCheck, ShieldAlert, AlertTriangle, Lock, Menu, Clock, Trash2, HelpCircle, X, User, LogOut, Settings, ChevronDown, Loader2 } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import AnalyzerForm from './components/AnalyzerForm';
 import AnalysisReport from './components/AnalysisReport';
 import AboutModal from './components/AboutModal';
@@ -462,6 +463,7 @@ const App: React.FC = () => {
         onLogin={handleLogin} 
       />
       <ChatWidget analysisResult={result} />
+      <SpeedInsights />
     </div>
   );
 };
