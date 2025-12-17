@@ -1,0 +1,5 @@
+{
+  "name": "SecureLens - Fraud & Scam Analyzer",
+  "description": "An intelligent AI-powered system that analyzes messages, emails, and URLs to detect potential scams, providing detailed risk assessments and actionable safety advice.",
+  "requestFramePermissions": []
+}
